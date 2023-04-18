@@ -1,0 +1,1 @@
+{"statusCode": 200, "reults": [{"SUCCESS": "Successfully put data to S3:meal-tracker-data/food/food.csv."}, {"SUCCESS": "Successfully put data to S3:meal-tracker-data/weight/bwtracker.csv."}]}

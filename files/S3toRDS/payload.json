@@ -1,0 +1,12 @@
+{
+    "data":[
+        {
+            "table": "Food",
+            "s3":{
+                "bucket": "meal-tracker-data",
+                "key": "food/food.csv"
+            },
+            "method" : "replace"
+        }
+    ]
+}

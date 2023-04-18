@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "name": "Food",
+      "s3": {
+        "bucket": "meal-tracker-data",
+        "key": "food/food.csv"
+      },
+      "sheet": {
+        "id": "1lR7Z41jSy7tHoOs8NCzU2zLUAM97jpvn_IhhxCDqVbQ",
+        "sheet": "FoodDB!A2:I",
+        "schema": ["Name", "Type", "Protein", "Carbohydrates", "Fat", "Fiber", "Servings", "Calories"]
+      }
+    },
+    {
+      "name": "BWTracker",
+      "s3": {
+        "bucket": "meal-tracker-data",
+        "key": "weight/bwtracker.csv"
+      },
+      "sheet": {
+        "id": "1lR7Z41jSy7tHoOs8NCzU2zLUAM97jpvn_IhhxCDqVbQ",
+        "sheet": "BWTracker!A2:G",
+        "schema": ["Date", "Weight (lb)"]
+      }
+    }
+  ]
+}
